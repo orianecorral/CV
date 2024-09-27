@@ -1,0 +1,165 @@
+@media (min-width:400px) {
+ body {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 12;
+  color: #312f2f;
+  background: url("./background2.png") center center fixed;
+  }
+}
+
+h1 {
+  font-size: 24;
+}
+
+.content h2 {
+  font-size: 15;
+  text-decoration: underline;
+}
+
+h3 {
+  font-size: 13;
+}
+
+h4 {
+  font-size: 11;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+p {
+  color: #EF626C;
+}
+
+.checked {
+  color: #EF626C;
+}
+
+img {
+  border-radius: 70%;
+  max-width: 50%;
+  height: auto;
+}
+
+.hard_skills {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.hard_skills img {
+  max-width: 20%;
+  height: auto;
+
+}
+
+.education {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #F2CEE6;
+  border:  solid #84DCCF ;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.experience {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #F2CEE6;
+  border:  solid #84DCCF ;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+
+.msc {
+  order: 1;
+}
+
+.wagon {
+  order: 2;
+}
+
+.master {
+  order: 3;
+}
+
+.licence {
+  order: 4;
+}
+
+.vertical-card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content:center;
+  background-color: #F2CEE6;
+  border:  solid #84DCCF ;
+  padding: 10px;
+  margin: 10px;
+  max-width: 20%;
+  float: left;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+}
+
+.button {
+  display:grid;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        color: #312f2f;
+        background-color: #F2CEE6;
+        border-radius: 6px;
+        outline: none;
+        transition: 0.3s;
+      }
+      .button:hover {
+        background-image: linear-gradient(
+      to right,
+      #E7484F,
+      #E7484F 16.65%,
+      #F68B1D 16.65%,
+      #F68B1D 33.3%,
+      #FCED00 33.3%,
+      #FCED00 49.95%,
+      #009E4F 49.95%,
+      #009E4F 66.6%,
+      #00AAC3 66.6%,
+      #00AAC3 83.25%,
+      #732982 83.25%,
+      #732982 100%,
+      #E7484F 100%
+    );
+      }
+
+
+.devanture img {
+max-width: 100%;
+height: auto;
+filter: drop-shadow(1px 1px 20px #732982)
+}
+
+.contact {
+display: flex;
+flex-direction: column;
+
+}
+
+.contact img {
+  filter: drop-shadow(1px 1px 20px #732982)
+}
+
+.form_questions {
+  border: solid #816F68;
+  background-color: #C9C9EE;
+  border-radius: 10px;
+}
