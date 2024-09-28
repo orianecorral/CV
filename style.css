@@ -181,6 +181,7 @@ flex-direction: column;
   background-image:linear-gradient(to right, violet, rgb(163, 92, 92));
   border-radius: 10px;
   display: block;
+  font-weight: bold;
 }
 
 input {
@@ -195,7 +196,7 @@ input:focus {
 }
 
 textarea {
-  width: 100%;
+  width: 80%;
   height: 150px;
   padding: 12px 20px;
   box-sizing: border-box;
@@ -205,7 +206,31 @@ textarea {
   resize: none;
 }
 
-.gif img {
-  height: 20%;
+.gifs {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 
+}
+
+.gifs img {
+  height: 20%;
+}
+
+#submit{
+  border-radius: 10px;
+  background-image: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  text-align: center;
+}
+
+.aespa {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.music {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }
